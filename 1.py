@@ -50,7 +50,7 @@ st.progress(24)
 
 
 with st.spinner("Wait Vika "):
-    time.sleep(2)
+    time.sleep(20)
 
 
-st.code()
+st.code("range(50)",language='python')
