@@ -35,7 +35,7 @@ st.write(f'You entered: {text_area}')
 number_input = st.number_input('Enter a number:', min_value=0, max_value=100, value=10)
 st.write(f'Number input: {number_input}')
 
-# Date input
+# Date input1
 date_input = st.date_input('Select a date:')
 st.write(f'Selected date: {date_input}')
 
