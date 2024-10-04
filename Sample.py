@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Title of the app
-st.title('Streamlit Widgets Showcase')
+st.title('Streamlit Widgets')
 
 # Radio buttons
 radio_choice = st.radio('Choose an option:', ['Option 1', 'Option 2', 'Option 3'])
