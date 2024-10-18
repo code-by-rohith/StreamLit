@@ -3,7 +3,7 @@ import streamlit as st
 import time
 import plotly.express as px
 
-st.title("Diabetes Data Dashboard")
+st.title("Diabetes Data Dashboard PAAS")
 s = pd.read_csv("diabetics.csv")
 with st.spinner("Loading !"):
     time.sleep(6)
