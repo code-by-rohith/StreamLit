@@ -5,12 +5,10 @@ import plotly.express as px
 
 st.title("Diabetes Data Dashboard")
 s = pd.read_csv("diabetics.csv")
-
 with st.spinner("Loading !"):
     time.sleep(6)
 
 st.write(s)
-
 fig1 = px.histogram(s, x='Glucose', title="Distribution of Glucose Levels",
                     labels={'Glucose':'Glucose Levels'}, nbins=30, color_discrete_sequence=['#1f77b4'])
 st.plotly_chart(fig1)
